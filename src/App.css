@@ -1,0 +1,85 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+.contactForm {
+  margin-bottom: 2rem;
+}
+
+input[type="text"],
+input[type="tel"],
+button {
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+  width: 100%;
+  max-width: 300px;
+}
+
+.icons {
+  padding: 1rem;
+  
+  
+}
+
+@media (min-width: 600px) {
+  input[type="text"],
+  input[type="tel"],
+  button {
+    width: auto;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+h1, h2 {
+  color: #ffffff;
+}
+h3{
+  color: black;
+}
+
+.modal {
+  display: block; /* Show the modal */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(125, 100, 100, 0.4); /* Black w/ opacity */
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* New class for blurring the background */
+.blur-background {
+  filter: blur(4px);
+}
